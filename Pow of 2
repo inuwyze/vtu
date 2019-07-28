@@ -1,0 +1,15 @@
+num=int(input())
+pow=2
+flg=0
+while pow<=num:
+    if num==pow:
+        flg=1
+    pow*=2
+    
+    
+if flg==1:
+    print ("True")
+else:
+    print("False")
+    
+    
