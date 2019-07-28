@@ -1,5 +1,5 @@
 num=int(input())
-pow=2
+pow=1
 flg=0
 while pow<=num:
     if num==pow:
