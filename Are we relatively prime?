@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    Scanner sc=new Scanner(System.in);
+        
+        int inp1=sc.nextInt();
+        int inp2=sc.nextInt();
+        int flg=0;
+        for(int i=2;;i++)
+        {
+            if(i>inp1 || i>inp2)
+                break;
+            if(inp1%i==0 && inp2%i==0)
+                flg=1;
+        }
+        if(flg==0)
+            System.out.print("Yes");
+        else
+            System.out.print("No");
+
+    }
+}
